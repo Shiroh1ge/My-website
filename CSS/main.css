@@ -1,40 +1,68 @@
 #header {
-    border: dotted 2px skyblue;
+  color: deepskyblue;
+    position:relative;
+    float: inherit;
+    font-family:Consolas,sans-serif;
+    background: url("http://www.planwallpaper.com/static/images/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg" )0px 0px/100% 150px;
+
+    display: inline-block;
+    width:100%;
 }
 
 #left {
+    display:inline-block;
     float: left;
-    width: 50%;
+    width: 45%;
     color:deepskyblue;
+    position:relative;
+
+    border: double 1px royalblue;
 }
 
 #right {
-
+    display:inline-block;
     float: right;
-    width: 50%;
-    color:red;
+    width: 45%;
+    color:deepskyblue;
+    position:relative;
 
+    border: double 1px royalblue;
+}
+#vertical-line {
+    margin-left: 4%;
+    height: 100%;
+    background-color: aqua;
+    width: 10px;
+    display: inline-block;
+    margin-right: 4%;
 }
 
 .container {
-    background-color:red;
+
     border-left: 2px solid black;
 }
 
 body, html {
     height: 100%;
-    background-image:url("http://7-themes.com/data_images/out/14/6814942-wallpaper.jpg");
+    background-image: url("http://7-themes.com/data_images/out/14/6814942-wallpaper.jpg");
+    width:auto;
+    height:auto;
+    positiov:absolute;
+    top:150px;
 
 
 }
 
 #main-body {
     border-left: 1px solid black;
-    height: 100%;
-
+    height: 1080px;
+    width: 100%;
 
 }
-img {
-    width: 100%;
-    height: 100%;
+#faq{
+    font-family: Helvetica,sans-serif;
+    font-size: 25px;
+    display: inline-block;
+
+
 }
