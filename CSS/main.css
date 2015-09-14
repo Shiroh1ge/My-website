@@ -3,7 +3,7 @@
     position:relative;
     float: inherit;
     font-family:Consolas,sans-serif;
-    background: url("http://www.planwallpaper.com/static/images/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg" )0px 0px/100% 150px;
+    background: url("http://www.filamer.edu.ph/wp-content/uploads/2013/10/dark-blue-background.jpg" )0px 0px/100% 150px;
 
     display: inline-block;
     width:100%;
@@ -47,8 +47,8 @@ body, html {
     background-image: url("http://7-themes.com/data_images/out/14/6814942-wallpaper.jpg");
     width:auto;
     height:auto;
-    positiov:absolute;
-    top:150px;
+    position:relative;
+
 
 
 }
