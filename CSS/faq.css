@@ -1,0 +1,10 @@
+#header {
+    color: deepskyblue;
+    position:relative;
+    float: inherit;
+    font-family:Consolas,sans-serif;
+    background: url("http://www.planwallpaper.com/static/images/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg" )0px 0px/100% 150px;
+
+    display: inline-block;
+    width:100%;
+}
