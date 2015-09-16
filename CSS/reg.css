@@ -10,7 +10,6 @@
 }
 a {
     text-decoration: none;
-
 }
 
 a:visited{
@@ -28,8 +27,8 @@ body, html {
 }
 
 button {
-border: 1px solid deepskyblue;
-position:absolute;
+    border: 1px solid deepskyblue;
+    position:absolute;
 }
 #text-box{
     display:inline-block;
@@ -40,15 +39,14 @@ position:absolute;
     position:relative;
     left:40%;
 }
-p {
-    color:red;
-}
+
+
 
 h1 {
-     font-weight:900;
-     font-size:40px;
+    font-weight:900;
+    font-size:40px;
 
- }
+}
 input {
     display:inline-block;
     width:50px;
