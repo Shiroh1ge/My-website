@@ -41,9 +41,9 @@
     margin-right: 4%;
 }
 
-.container {
+.container-hd {
 
-    border-left: 2px solid black;
+    height:200px;
 }
 
 body, html {
