@@ -1,6 +1,6 @@
 #header {
     color: deepskyblue;
-    position:relative;
+    position:absolute;
     float: inherit;
     font-family:Roboto,sans-serif;
     background: url("http://www.filamer.edu.ph/wp-content/uploads/2013/10/dark-blue-background.jpg" )0px 0px/100% 150px;
@@ -26,28 +26,3 @@ body, html {
 
 }
 
-button {
-    border: 1px solid deepskyblue;
-    position:absolute;
-}
-#text-box{
-    display:inline-block;
-    height:100px;
-    width: 300px;
-    border: deepskyblue 1px solid;
-    top:20px;
-    position:relative;
-    left:40%;
-}
-
-
-
-h1 {
-    font-weight:900;
-    font-size:40px;
-
-}
-input {
-    display:inline-block;
-    width:50px;
-}

@@ -1,11 +1,7 @@
 /**
  * Created by haker on 12-Sep-15.
  */
-$(document).ready(function(name, age) {
-    var paragraph = document.getElementById("first-paragraph");
-    console.log(paragraph);
-
-
+$(document).ready(function(){
 var Person = (function() {
     function Person(firstName, lastName) {
         this.firstName = firstName;
@@ -64,7 +60,6 @@ var Student = (function() {
 
 
 
-
-
-
+    
 });
+
