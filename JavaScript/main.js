@@ -6,45 +6,65 @@ $(document).ready(function(name, age) {
     console.log(paragraph);
 
 
-function Person(name, age) {
-    this.name = name;
-    this.age = age;
-    this.contactInfo = function() {
-       return ("Name: " + this.name + "\nAge: " + this.age);
-    this.contactInfo();
+var Person = (function() {
+    function Person(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.fullName = this.firstName + ' ' + this.lastName;
     }
-return this;
-};
+
+Person.prototype.introduce = function() {
+        return ("Hey, my name is " +this.fullName);
+    }
+    return Person;
+}());
+
+    var bob = new Person("Bo","Do");
 
 
-    var bob = new Person("Bo", 13);
-    var pepi = new Person("Pepi",13);
-    var koki = {
-        job:"super programmer",
-        speak: function(feeling){
-            console.log("Hi, I am feeling like "+feeling);
-        },
-        sayJob:function(){
-          console.log("Hey, I work as a " +koki.job);
-        },
-    };
-var logProperty = koki.job;
-    console.log(logProperty);
-    var logProperty2 = "job";
-    console.log(koki[logProperty2]);
+var Student = (function() {
+    function Student(firstName, lastName) {
+       Person.call(this, firstName, lastName);
+    }
 
-
-
-    function printPerson(person){
-        console.log(person.contactInfo());
-
-
-    };
+    return Student;
+}());
+    Student.prototype = Object.create(Person.prototype);
+    var pepi = new Student("Pepi", "Pep4ov");
 
 
 
 
-console.log( koki.contactInfo());
+
+
+    console.log(bob instanceof Person);
+    console.log(pepi instanceof Person);
+
+    console.log(bob);
+    console.log(pepi);
+    console.log(bob.introduce());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 });
